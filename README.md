@@ -1,54 +1,61 @@
 # 📡 HackCrist WiFi Audit Script
 
-**Autor:** HackCrist  
-**Uso:** Auditoría de seguridad WiFi de forma ética y educativa.  
-**Canal TikTok:** [@ethicalcore](https://www.tiktok.com/@ethicalcore?_t=ZT-8xeJ7JR4paQ&_r=1)  
-**Licencia:** Apache License 2.0
+💻 **Fuerza bruta WiFi ética • Solo pruebas educativas • TikTok: [@ethicalcore](https://www.tiktok.com/@ethicalcore)**
 
 ---
 
 ## ⚙️ Descripción
 
-Este script realiza una prueba de **fuerza bruta de claves WiFi** usando una wordlist predefinida, basado en `pywifi`.
+**HackCrist WiFi Audit** es un script para auditoría WiFi **solo para pruebas legales** en redes de laboratorio.  
+Permite realizar ataques de fuerza bruta usando una wordlist personalizada con la librería `pywifi`.
 
-✅ **Solo para entornos de laboratorio y redes de prueba.**  
-❌ **No usar en redes ajenas sin permiso — ILEGAL y NO ÉTICO.**
+✅ **Uso 100% educativo y ético**  
+❌ **No usar en redes ajenas sin permiso — ilegal y no ético.**
 
 ---
 
 ## 📥 Requisitos
 
 - Python 3
-- `pywifi` (librería Python)
+- pywifi
 
 ---
 
-## 🚀 Instalación
+## 🚀 Instalación rápida
 
 ```bash
+git clone https://github.com/hackcrist/HackCrist_WiFi.git
+cd HackCrist_WiFi
 chmod +x install.sh
 ./install.sh
 ```
 
 ---
 
-## ▶️ Uso
+## ▶️ Ejecución
 
+Ejecuta el script con:
 ```bash
-python3 hackcrist_wifi.py -s "MySSID" -w /path/to/wordlist.txt
+python3 hackcrist_wifi.py
 ```
 
-Si no pasas argumentos, usará los valores por defecto definidos en el script.
+Puedes personalizar el **SSID** y la **ruta de tu wordlist** usando los argumentos `-s` y `-w`.
 
-Al finalizar, se abrirá automáticamente tu canal de TikTok **[@ethicalcore](https://www.tiktok.com/@ethicalcore?_t=ZT-8xeJ7JR4paQ&_r=1)**.
+---
+
+## 🔗 TikTok
+
+Sigue mi canal: **[@ethicalcore](https://www.tiktok.com/@ethicalcore)** para más herramientas de hacking ético.
 
 ---
 
 ## ⚠️ Licencia
 
-Este proyecto está licenciado bajo la **Apache License 2.0**.  
-Úsalo únicamente para **auditoría de seguridad legal y pruebas de aprendizaje**.
+Este proyecto está bajo la **Apache License 2.0**.  
+**Autor:** HackCrist
+
+**Usa este script solo para prácticas de auditoría y pruebas legales.**
 
 ---
 
-⭐ **By HackCrist**
+🚀 **By HackCrist**
